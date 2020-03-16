@@ -1,1 +1,1 @@
-# empire_barbershop.github.io
+# https://ihorkos.github.io/empire_barbershop/
