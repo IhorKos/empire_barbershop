@@ -106,11 +106,12 @@ function burger() {
 		var marker = new google.maps.Marker({
 			position: pos,
 			map: map,
-			title: "EMPIRE BARBERSHOP",
-			icon: ""
+      title: "EMPIRE BARBERSHOP",
+      icon: ""
+      
 		});
 		var info = new google.maps.InfoWindow({
-			content: '<h4>EMPIRE BARBERSHOP</h4><p>Працюємо з 10:00 до 21:00 <br> Пн-вихідний день <br> тел: 066-053-78-27</p>'
+      content: '<div style="color:black"><h4>EMPIRE BARBERSHOP</h4><p>Працюємо з 10:00 до 21:00 <br> Пн-вихідний день <br> тел: 066-053-78-27</p></div>'
 		});
 
 		marker.addListener("click", function(){
